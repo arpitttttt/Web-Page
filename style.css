@@ -1,0 +1,197 @@
+/* font-family: 'Poppins', sans-s8rif; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Orbitron", sans-serif;
+}
+
+.container {
+  padding: 50px 100px;
+  /* background-color: black; */
+}
+
+.navbar {
+  font-family: "Orbitron", sans-serif;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+
+.logo {
+  height: 40px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+}
+
+nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 100px;
+}
+
+nav ul li {
+  margin-top: 10px;
+  align-items: center;
+  margin-right: 50px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: rgb(46, 46, 46);
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+nav ul li:hover {
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.button-group {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.search-icon {
+  margin-right: 10px;
+}
+
+.nav-button {
+  font-family: "Poppins", sans-serif;
+  width: 150px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 1.3rem;
+  background: white;
+  border-radius: 15px;
+}
+
+/* ---------------------------Hero Banner Section--------------------------- */
+
+.hero-container {
+  padding: 50px 0;
+  display: flex;
+  position: relative;
+  height: 80vh;
+}
+
+.square {
+  position: absolute;
+  bottom: 0px;
+  left: 160px;
+  width: 300px;
+}
+
+.square-img {
+  width: 100%;
+}
+
+.star1 {
+  position: absolute;
+  right: 10px;
+  top: 80px;
+}
+
+.star2 {
+  position: absolute;
+  bottom: 25px;
+  left: 530px;
+}
+
+.globe {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+}
+
+.image-container {
+  position: absolute;
+  top: 100px;
+  width: 400px;
+}
+
+.image {
+  width: 100%;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  width: 60%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.hero-heading {
+  font-size: 3.2rem;
+  margin-bottom: 50px;
+}
+
+.hero-description {
+  width: 80%;
+  line-height: 1.5;
+  margin: 0 auto;
+  font-size: small;
+  color: rgb(130, 130, 130);
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 100px;
+}
+
+.button-email {
+  font-size: 1.2rem;
+  padding: 0 15px;
+  color: rgb(46, 46, 46);
+  border-radius: 4px;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.button-email:hover {
+  background-color: black;
+  color: white;
+}
+
+.button-join {
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 4px;
+  border: 2px solid black;
+  background-color: black;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.button-join:hover {
+  background-color: white;
+  color: rgb(46, 46, 46);
+}
+
+.contact-heading {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: rgb(130, 130, 130);
+}
+
+.icons span {
+  margin-right: 20px;
+}
